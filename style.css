@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Edu NSW ACT Hand Pre", cursive;
+    background-color: #ffe4c4;
+    color: #31383F;
+}
+
+.container {
+    padding: 50px;
+}
+
+.about {
+    text-align: center;
+    background-color: #013417;
+    color: #F2E9EB;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 0px;
+}
+.about__three{
+    position: relative;
+    top: -10px;
+}
+.about__two {
+    background-color: #FEDD89;
+    color: #31383F;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+}
+
+.about__two:hover {
+    background-color: #31383F;
+    color: #FEDD89;
+}
+
+.me,.interest,.projects,.social {
+    margin-top: 30px;
+}
+
+.me__one,.me__two,.interest__one,.projects__one,.social__one {
+    margin-top: 10px;
+}
+
+.interest li,.projects li {
+    list-style: georgian;
+
+}
+
+.interest {
+    display: inline-block;
+    background-color: #31383F;
+    color: #F2E9EB;
+    padding: 30px;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    border-style: ridge;
+    vertical-align: top;
+    
+}
+
+.interest:hover {
+    display: inline-block;
+    background-color: #DD8EA4;
+    color: #31383F;
+    padding: 30px;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    border-style: ridge;
+}
+
+.interest__two {
+    width: 500px;
+    height: auto;
+    align-items: center;
+    border-radius: 25px;
+    border-style: groove;
+
+
+}
+
+.interest__one {
+    text-align: center;
+
+}
+
+.projects {
+    display: inline-block;
+    background-color: #31383F;
+    color: #F2E9EB;
+    padding: 30px;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    border-style: ridge;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.projects:hover {
+    display: inline-block;
+    background-color: #DD8EA4;
+    color: #31383F;
+    padding: 30px;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    border-style: ridge;
+}
+.social{
+    background-color: #013417;
+    color: #F2E9EB;
+    border-radius: 30px;
+    padding: 30px;
+}
+.social__one{
+    color: #F2E9EB;
+    text-decoration: none;
+
+}
+.social__one a{
+    color: aquamarine;
+}
+.social__icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
