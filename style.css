@@ -5,8 +5,8 @@
 
 body {
     font-family: "Edu NSW ACT Hand Pre", cursive;
-    background-color: #ffe4c4;
-    color: #31383F;
+    background-color: #303030;
+    color: #c9dff5;
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
 
 .about {
     text-align: center;
-    background-color: #013417;
+    background-color: #b53d22;
     color: #F2E9EB;
     padding: 50px;
     border-radius: 20px;
